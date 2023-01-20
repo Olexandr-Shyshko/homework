@@ -8,7 +8,5 @@ public class Main {
         System.out.println("Result a - b = "+(a-b));
         System.out.println("Result a * b = "+(a*b));
         System.out.println("Result a / b = "+((float) a /(float) b));
-
-
     }
 }
