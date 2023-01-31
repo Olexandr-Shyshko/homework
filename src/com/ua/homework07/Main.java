@@ -14,6 +14,7 @@ public class Main {
         String symbol = "#";
         System.out.print("3. Print countSymbol "+countSymbol+" : ");
         main.printSymbol(countSymbol,symbol);
+        ////
     }
 
     int getCubeOfNumber (int num){
