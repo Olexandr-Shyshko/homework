@@ -6,7 +6,7 @@ public class Main {
         int numberForCube = 3;
         System.out.println("1. Cube of number "+numberForCube+" = "+main.getCubeOfNumber(numberForCube));
         System.out.println("----------------------");
-        int countStar = 5;
+        int countStar = 6;
         System.out.print("2. Print countStar "+countStar+" : ");
         main.printStar(countStar);
         System.out.println("----------------------");
