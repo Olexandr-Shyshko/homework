@@ -3,14 +3,14 @@ package com.ua.homework07;
 public class Main {
     public static void main(String[] args) {
         Main main = new Main();
-        int numberForCube = 3;
+        int numberForCube = 4;
         System.out.println("1. Cube of number "+numberForCube+" = "+main.getCubeOfNumber(numberForCube));
         System.out.println("----------------------");
-        int countStar = 6;
+        int countStar = 7;
         System.out.print("2. Print countStar "+countStar+" : ");
         main.printStar(countStar);
         System.out.println("----------------------");
-        int countSymbol = 4;
+        int countSymbol = 5;
         String symbol = "#";
         System.out.print("3. Print countSymbol "+countSymbol+" : ");
         main.printSymbol(countSymbol,symbol);
