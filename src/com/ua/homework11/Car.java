@@ -11,6 +11,10 @@ public class Car {
         return type;
     }
 
+    public String showTypeCar() {
+        return "Car";
+    }
+
     public Car(String model, String color, int year, float engine, String type) {
         this.model = model;
         this.color = color;
