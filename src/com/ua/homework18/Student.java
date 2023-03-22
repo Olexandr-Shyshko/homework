@@ -17,7 +17,7 @@ public class Student {
     }
 
     public int getId() {
-        return id;
+        return this.id;
     }
 
     public void setId(int id) {
@@ -25,7 +25,7 @@ public class Student {
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public void setName(String name) {
@@ -33,7 +33,7 @@ public class Student {
     }
 
     public String getSurName() {
-        return surName;
+        return this.surName;
     }
 
     public void setSurName(String surName) {
@@ -41,20 +41,14 @@ public class Student {
     }
 
     public String getGroupName() {
-        return groupName;
+        return this.groupName;
     }
 
     public void setGroupName(String groupName) {
         this.groupName = groupName;
     }
 
-    @Override
     public String toString() {
-        return "Student {" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", surName='" + surName + '\'' +
-                ", groupName='" + groupName + '\'' +
-                '}';
+        return "Student {id=" + this.id + ", name='" + this.name + "', surName='" + this.surName + "', groupName='" + this.groupName + "'}";
     }
 }
