@@ -1,6 +1,6 @@
 package com.ua.homework18;
 
-import com.ua.homework18_1.Student;
+
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -31,13 +31,13 @@ public class Test {
 
         System.out.println(list2);
         System.out.println("---------------------------------");
-    List<com.ua.homework18_1.Student> studentList1 = new ArrayList();
-    com.ua.homework18_1.Student st1 = new com.ua.homework18_1.Student(1, "Ira", "Ivanova", "UP-19");
+    List<com.ua.homework18.Student> studentList1 = new ArrayList();
+    com.ua.homework18.Student st1 = new com.ua.homework18.Student(1, "Ira", "Ivanova", "UP-19");
         studentList1.add(st1);
         System.out.println(st1);
         System.out.println("---------------------------------");
-    List<com.ua.homework18_1.Student> studentList2 = new LinkedList();
-    com.ua.homework18_1.Student st2 = new Student(2, "Ivan", "Petrov", "FK-17");
+    List<com.ua.homework18.Student> studentList2 = new LinkedList();
+    com.ua.homework18.Student st2 = new Student(2, "Ivan", "Petrov", "FK-17");
         studentList2.add(st2);
         System.out.println(st2);
 }
